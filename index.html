@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Złap, jeśli umiesz!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Łap spadające obiekty</h1>
+<p>Wynik: <span id="wynik">0</span></p>
+<!--zdajemy sobie sprawę z uzycia znacznika semantycznego "<span>" i wiemy, ze jest charakterystyczna czescia kodow pisanych przez AI (Pani Palka powiedziala nam o tym w klasie 3). Uzylismy go jednak z tytulu doglebnego przeczytania jego znaczenia, z uwagi na to, ze jest elementem liniowym, a nie blokowym (jak div) i niczego nie przesuwa. 
+    via: https://miroslawzelent.pl/kurs-html/element-span/ i https://html.spec.whatwg.org/multipage/text-level-semantics.html#the-span-element-->
+
+<canvas id="plansza" width="400" height="600"></canvas>
+
+<script src="gra.js"></script>
+</body>
+</html>
